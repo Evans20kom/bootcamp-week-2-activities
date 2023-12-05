@@ -4,6 +4,7 @@
   padding: 10px;
   width: 250px;
   height: 250px;
+  
 }
 .flexContainer {
   display: flex;
@@ -11,6 +12,8 @@
   background-color: lightblue;
   margin: 10px;
   padding: 10px;
+  
+  
 }
 /*
 The properties above are just used to display your flex container.
@@ -31,7 +34,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
   - flex-end
   - flex-start
   */
-
+  align-items: center;
 }
 .justifyContent {
 /*
@@ -44,7 +47,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 - space-around
 - space-evenly
 */
-
+justify-content: center;
 }
 .perfectlyCentered {
 /*
@@ -52,5 +55,6 @@ It is highly recommended to try out these commands in chromes web inspector to s
 - Then type out the css property align-items: center;
 - Reload the browser and see for yourslef that your item is perfectly centered!
 */
-
+align-items: center;
+justify-content: center;
 }
